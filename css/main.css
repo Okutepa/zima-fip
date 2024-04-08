@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(#17351C, #6B8F71, #6A8D70, #2E4131);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 2. ---Main Nav--- */
+
+#main-nav label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px; 
+ } 
+ 
+ #main-nav input, #burger-con {
+    display: none;
+ }
+ 
+ 
+ /*   ~ sibling selector   */
+ 
+ 
+ #main-nav input:checked ~ #burger-con {
+    display: block;
+ }
+ 
+ #main-nav input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+ 
+ #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+ }
+ 
+ #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+ }
+ 
+ 
+ 
+ #main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:last-child {
+    margin-bottom: 10px;
+ } 
+ 
+ 
+h1 {
+    color: white;
+}
+
+.button {
+    width:  154px;
+    height: 44px;
+    background-color: #E1F3E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    color: white;
+}
+
+.line-separator {
+    margin-top: 20px;
+    border-top: solid 3px white;
+    padding-top: 20px;
+}
+
+#properties {
+    display: flex;
+}
+
+.plant-based {
+    display: flex;
+}
+
+.display-pro {
+    width: 318px; /* Adjust as needed */
+    height: 318px; /* Adjust as needed */
+    background-color: #041E01;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+    display: flex;
+    flex-direction: column;
+}
+
