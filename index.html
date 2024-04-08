@@ -2,97 +2,96 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/grid.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
     <title>Zima</title>
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <img src="" alt="" />
+
+    <header id="main-header" class="grid-con">
+      <div class="logo col-start-1 col-end-2 m-col-start-1 m-col-end-3">
+        <img src="images/logo.svg" alt="">
       </div>
-      <nav id="navigation">
-        <ul>
-          <li>Products</li>
-          <li>About</li>
-          <li>Blogs</li>
-          <li>Contact</li>
-        </ul>
+      <nav id="main-nav" class="col-start-4 col-end-5 m-col-start-8 m-col-end-13">
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger">
+          <img src="images/burger.svg" alt="hamburger menu">
+        </label>
+        <div id="burger-con">
+          <ul>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="">Blogs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
 
     <main>
-      <div class="hero-image">
-        <img src="" alt="" />
-      </div>
-      <h1>
-        Indulge in <br />the True essence of <br />
-        renowned refreshment
-      </h1>
-      <div>
-        <p>Explore Now</p>
-      </div>
+      <section>
+        <div class="hero-image">
+          <img src="images/hero-img.png" alt="">
+        </div>
+        <h1>
+          Indulge in <br />the True essence of <br>
+          renowned refreshment
+        </h1>
+        <div class="button">
+          <p>Explore Now</p>
+        </div>
+      </section>
 
-      <div class="box">
-        <p>Plant Based</p>
-        <p>
-          Striving for exceptional <br />quality in every aspect <br />of our
-          service
-        </p>
-      </div>
+      <section id="Premium line-separator">
+        <h2>PREMIUM BEER</h2>
+        <img src="images/premium-beer.png" alt="">
+        <div id="properties">
+          <div class="plant-based">
+            <img src="images/dot.svg" alt="">
+            <p>Plant Based</p>
+          </div>
 
-      <div class="box">
-        <p>Plant Based</p>
-        <p>
-          Striving for exceptional <br />quality in every aspect <br />of our
-          service
-        </p>
-      </div>
+          <div class="plant-based">
+            <img src="images/dot.svg" alt="">
+            <p>Plant Based</p>
+          </div>
+        </div>
 
+      <section id="img-con">
+        <div class="display-pro col-span-full">
+          <img src="" alt="">
+        </div>
+
+        <div class="display-pro col-span-full">
+          <img src="" alt="">
+        </div>
+
+        <div class="display-pro col-span-full">
+          <img src="" alt="">
+        </div>
+      </section>
       <div class="line-separator"></div>
+      </section>
 
-      <h2>Premium Beer</h2>
-      <img src="" alt="" />
-      <div></div>
-      <p>Plant Based</p>
-      <div></div>
-      <p>Plant Based</p>
-
-      <div>
-        <div>
-          <img src="" alt="" />
-        </div>
-        <h3>Lorem ipsum sum tim</h3>
-        <p>Lorem ipsum sum tim</p>
-        <p>Lorem ipsum sum tim</p>
-      </div>
-
-      <div>
-        <div>
-          <img src="" alt="" />
-        </div>
-        <h3>Lorem ipsum sum tim</h3>
-        <p>Lorem ipsum sum tim</p>
-        <p>Lorem ipsum sum tim</p>
-      </div>
-
-      <div>
-        <div>
-          <img src="" alt="" />
-        </div>
-        <h3>Lorem ipsum sum tim</h3>
-        <p>Lorem ipsum sum tim</p>
-        <p>Lorem ipsum sum tim</p>
-      </div>
-
-      <div class="line-separator"></div>
-
-      <div></div>
-      <div></div>
     </main>
-    <footer>
-      <div class="footer-nav">
+
+    <footer class="grid-con">
+      <div class="logo-bottom col-start-2 col-end-4">
+        <img src="images/logo.svg" alt="zima logo">
+      </div>
+
+      <div class="subscription col-start-2 col-end-4">
+        <h3>SUBSCRIBE</h3>
+        <div>
+          <p>Email address</p>
+        </div>
+        <div class="button col-start-1 col-end-5">
+          <p>submit</p>
+        </div>
+      </div>
+
+      <div class="footer-nav col-start-1 col-end-5">
         <p>Products</p>
         <p>Our Beer</p>
         <p>Shop</p>
@@ -106,15 +105,7 @@
         <p>UGC</p>
       </div>
 
-      <div class="subscription">
-        <h3>SUBSCRIBE</h3>
-        <div>
-            <p>Email address</p>
-        </div>
-        <div class="submit-button">
-            <p>submit</p>
-        </div>
-      </div>
+
     </footer>
   </body>
   <script src="js/main.js"></script>
