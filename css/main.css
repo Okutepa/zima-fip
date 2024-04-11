@@ -4,7 +4,6 @@
 
 body {
     background-image: linear-gradient(#17351C, #6B8F71, #6A8D70, #2E4131);
-    margin: 0;
 }
 
 a {
@@ -25,13 +24,20 @@ a {
  #main-nav input, #burger-con {
     display: none;
  }
+
+ label img {
+    position: absolute;
+    top: 0.5rem;
+    right: 2rem;
+ }
  
- 
- /*   ~ sibling selector   */
+/*   ~ sibling selector   */
  
  
  #main-nav input:checked ~ #burger-con {
     display: block;
+    
+    
  }
  
  #main-nav input:checked ~ label img {
@@ -51,8 +57,10 @@ a {
     color: #626262;
  }
  
+ 
  #main-nav ul li {
     border-bottom: 1px solid #efefef;
+    margin-right: -50px;
  }
  
  
@@ -64,10 +72,80 @@ a {
  #main-nav ul li:last-child {
     margin-bottom: 10px;
  } 
+
+.logo {
+    margin-top: 15px;
+ }
  
- 
+.hero-image {
+    margin: 0 auto;
+}
+
 h1 {
     color: white;
+    font-family: lato;
+    text-align: center;
+}
+
+
+
+.button-ex {
+    width:  154px;
+    height: 44px;
+    background-color: #E1F3E6;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.line-separator {
+    margin-top: 20px;
+    border-top: solid 3px white;
+    padding-top: 20px;
+}
+
+#main-head {
+    font-size: 16px;
+}
+
+
+.display-pro {
+    width: 300px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    /* background-color: #041E01; */
+    border-radius: 50%;
+    background-image: url('../images/image-test.png');
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+    
+    margin: o auto;
+}
+
+.pro-1 {
+    display: flex;
+    align-items: center;
+}
+
+.pro-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url('../images/image-test.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.display-pro img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+.product-card {
+    text-align: center;
+    margin: 20px 0;
 }
 
 .button {
@@ -79,30 +157,25 @@ h1 {
     align-items: center;
     border-radius: 7px;
     color: white;
+    margin: 0 auto;
 }
 
-.line-separator {
-    margin-top: 20px;
-    border-top: solid 3px white;
-    padding-top: 20px;
+
+.section-img {
+    margin: 0 auto;
+    width: 318px;
 }
 
-#properties {
-    display: flex;
+.subscription {
+    text-align: center;
 }
 
-.plant-based {
-    display: flex;
+.footer-links {
+    text-align: center;
+    color: white;
 }
 
-.display-pro {
-    width: 318px; /* Adjust as needed */
-    height: 318px; /* Adjust as needed */
-    background-color: #041E01;
-    border-radius: 50%;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
-    display: flex;
-    flex-direction: column;
-}
 
+@media screen and (min-width: 1200px){
+    
+}
