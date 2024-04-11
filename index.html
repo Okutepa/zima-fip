@@ -10,10 +10,10 @@
   <body>
 
     <header id="main-header" class="grid-con">
-      <div class="logo col-start-1 col-end-2 m-col-start-1 m-col-end-3">
-        <img src="images/logo.svg" alt="">
+      <div class="logo col-start-1 col-end-2 m-col-start-1 m-col-end-3 l-col-start-1 l-col-end-3">
+        <img src="images/logo.svg" alt="zima logo">
       </div>
-      <nav id="main-nav" class="col-start-4 col-end-5 m-col-start-8 m-col-end-13">
+      <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-13 l-col-start-5 l-col-end-13">
         <input type="checkbox" id="hamburger">
         <label for="hamburger">
           <img src="images/burger.svg" alt="hamburger menu">
@@ -30,50 +30,79 @@
     </header>
 
     <main>
-      <section>
-        <div class="hero-image">
-          <img src="images/hero-img.png" alt="">
+      <section class="grid-con">
+        <div class="hero-image col-span-full l-col-start-1 l-col-end-3 m-col-start-1 m-col-end-4">
+          <img 
+                src="images/hero-img.png" alt="hero image">
         </div>
-        <h1>
-          Indulge in <br />the True essence of <br>
-          renowned refreshment
+
+        <div class="head-sell col-span-full l-col-start-7 l-col-end-13 m-col-start-7 m-col-end-13">
+        <h1 id="main-head">
+          Indulge in the True essence of renowned refreshment
         </h1>
-        <div class="button">
+       
+        <p class="description">Experience simplicity and quality in every sip. 
+          Our mission is to craft the finest beverages 
+          with care and expertise just for you.</p>
+
+        <div class="button-ex col-span-full l-col-start-12 l-col-span-2">
           <p>Explore Now</p>
         </div>
+      </div>  x 
+
+        <div class="line-separator col-span-full l-col-span-full m-col-span-full"></div>
       </section>
 
-      <section id="Premium line-separator">
-        <h2>PREMIUM BEER</h2>
-        <img src="images/premium-beer.png" alt="">
-        <div id="properties">
-          <div class="plant-based">
-            <img src="images/dot.svg" alt="">
-            <p>Plant Based</p>
+      <section class="grid-con">
+        <div class="premium col-span-full l-col-start-1 l-col-end-5 m-col-start-1 m-col-end-6">
+        <h2>Explore Our Selection</h2>
+        </div>
+
+        <div class="section-img col-span-full l-col-start-1 l-col-end-3 m-col-start-1 m-col-end-4">
+        <img src="images/section-img.png" alt="">
+        </div>
+
+        <div class="pro-1 col-span-full l-col-start-8 l-col-end-13 m-col-start-9 m-col-end-13">
+          <div class="pro-img"></div>
+          <div class="pro-info">
+          <h3 class="name"> Berry Bliss Blend </h3>
+          <p class="description">7.0% ABV, 18 IBU</p>
+          </div>
+        </div>
+        <!-- <div class="product-card col-start-1 col-end-5 l-col-start-8 l-col-end-13 m-col-start-9 m-col-end-13">
+          <div class="display-pro">
+            <img src="images/purple-can.png" alt="">
+          </div>
+          <div class="text-content">
+            <h3 class="name">Red Mango Blend</h3>
+            <p class="description">7.0% ABV, 18 IBU</p>
+          </div>
+          <div class="button">View</div>
           </div>
 
-          <div class="plant-based">
-            <img src="images/dot.svg" alt="">
-            <p>Plant Based</p>
+        <div class="product-card col-start-1 col-end-5 l-col-start-8 l-col-end-13 m-col-start-9 m-col-end-13">
+        <div class="display-pro">
+          <img src="images/purple-can.png" alt="">
+        </div>
+        <div class="text-content">
+          <h3 class="name"> Berry Bliss Blend </h3>
+          <p class="description">7.0% ABV, 18 IBU</p>
+        </div>
+        <div class="button">View</div>
+        </div>
+
+        <div class="product-card col-start-1 col-end-5 l-col-start-8 l-col-end-13 m-col-start-9 m-col-end-13">
+          <div class="display-pro">
+            <img src="images/purple-can.png" alt="">
           </div>
-        </div>
-
-      <section id="img-con">
-        <div class="display-pro col-span-full">
-          <img src="" alt="">
-        </div>
-
-        <div class="display-pro col-span-full">
-          <img src="" alt="">
-        </div>
-
-        <div class="display-pro col-span-full">
-          <img src="" alt="">
-        </div>
+          <div class="text-content">
+            <h3 class="name">Berry Bliss Blend </h3>
+            <p class="description">0% ABV, 18 IB</p>
+          </div>
+          <div class="button">View</div>
+          </div>
+          </div> -->
       </section>
-      <div class="line-separator"></div>
-      </section>
-
     </main>
 
     <footer class="grid-con">
@@ -83,29 +112,24 @@
 
       <div class="subscription col-start-2 col-end-4">
         <h3>SUBSCRIBE</h3>
-        <div>
+        <div >
           <p>Email address</p>
         </div>
-        <div class="button col-start-1 col-end-5">
-          <p>submit</p>
-        </div>
+        <div class="button">submit</div>
       </div>
-
-      <div class="footer-nav col-start-1 col-end-5">
+        
+        <div class="footer-links col-start-2 col-end-4">
+        <p>submit</p>
         <p>Products</p>
         <p>Our Beer</p>
         <p>Shop</p>
         <p>Products</p>
-      </div>
-
-      <div>
         <p>Terms and conditions</p>
         <p>Privacy Policy</p>
         <p>FAQ</p>
         <p>UGC</p>
       </div>
-
-
+      </div>
     </footer>
   </body>
   <script src="js/main.js"></script>
