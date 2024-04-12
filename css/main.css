@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+.hidden {
+    display: none;
+}
+
 /* 2. ---Main Nav--- */
 
 #main-nav label img {
@@ -48,6 +52,10 @@ a {
     list-style: none;
     padding: 0;
     margin: 0;
+ }
+
+ .logo {
+    margin: 20px;
  }
  
  #main-nav ul li a {
@@ -106,6 +114,27 @@ h1 {
 
 #main-head {
     font-size: 16px;
+
+}
+
+.text-main-mobile p {
+    display: block;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin-top: 28px;
+
+}
+
+.text-main-tablet {
+    display: none;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.premium {
+    margin: 0 auto;
 }
 
 
@@ -113,27 +142,12 @@ h1 {
     width: 300px; /* Adjust as needed */
     height: 300px; /* Adjust as needed */
     /* background-color: #041E01; */
+    background-color: #17351C;
     border-radius: 50%;
-    background-image: url('../images/image-test.png');
     background-repeat: no-repeat;
     border-radius: 50%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
-    
-    margin: o auto;
-}
-
-.pro-1 {
-    display: flex;
-    align-items: center;
-}
-
-.pro-img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-image: url('../images/image-test.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+    margin: 30px auto 20px auto;
 }
 
 .display-pro img {
@@ -142,6 +156,24 @@ h1 {
     display: block;
     object-fit: contain;
 }
+
+.text-content {
+    margin: 0 auto;
+}
+
+.text-content2 {
+    margin: 0 auto;
+}
+
+.text-content3 {
+    margin: 0 auto 30px auto;
+}
+
+.main-hero {
+    height: 650px;
+}
+
+
 
 .product-card {
     text-align: center;
@@ -176,6 +208,4 @@ h1 {
 }
 
 
-@media screen and (min-width: 1200px){
-    
-}
+
