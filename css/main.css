@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -107,9 +108,8 @@ h1 {
 }
 
 .line-separator {
-    margin-top: 20px;
+    margin-bottom: px;
     border-top: solid 3px white;
-    padding-top: 20px;
 }
 
 #main-head {
@@ -126,6 +126,13 @@ h1 {
 
 }
 
+.description {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+
 .text-main-tablet {
     display: none;
     font-size: 16px;
@@ -133,14 +140,21 @@ h1 {
     text-align: center;
 }
 
+.mid-section {
+    margin-bottom: 30px;
+}
+
 .premium {
-    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+
 }
 
 
 .display-pro {
-    width: 300px; /* Adjust as needed */
-    height: 300px; /* Adjust as needed */
+    width: 250px; /* Adjust as needed */
+    height: 250px; /* Adjust as needed */
     /* background-color: #041E01; */
     background-color: #17351C;
     border-radius: 50%;
@@ -157,16 +171,20 @@ h1 {
     object-fit: contain;
 }
 
-.text-content {
-    margin: 0 auto;
+.text-content p {
+    margin: 0 auto 10px auto;
+    text-align: center;
 }
 
-.text-content2 {
-    margin: 0 auto;
+.text-content2 p {
+    margin: 0 auto 10px auto;
+    text-align: center;
+
 }
 
-.text-content3 {
-    margin: 0 auto 30px auto;
+.text-content3 p {
+    margin: 0 auto 10px auto;
+    text-align: center;
 }
 
 .main-hero {
@@ -179,6 +197,19 @@ h1 {
     text-align: center;
     margin: 20px 0;
 }
+
+.button-ex {
+    width:  154px;
+    height: 44px;
+    background-color: #E1F3E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    color: white;
+    margin: 0 auto;
+}
+
 
 .button {
     width:  154px;
