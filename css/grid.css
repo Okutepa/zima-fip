@@ -134,8 +134,8 @@
       margin: 0;
   }
 
-  .premium h2 {
-   text-align: left;
+  .premium {
+   margin: -50px auto 0 auto;
 
   }
 
@@ -182,10 +182,11 @@
 }
 
 .text-main-tablet {
-   display: block;
+   display: inline-block;
    font-size: 40px;
    color: white;
-   text-align: center;
+   text-align: right;
+   margin-bottom: 0px;
 }
 }  
 
@@ -246,9 +247,9 @@
     .l-col-end-13	{grid-column-end: 13;}
     
 
-    .logo {
-      width: 83px;
-      height: 18px;
+    .logo img {
+      width: 200px;
+      height: 30px;
      }
   
      label img {
@@ -282,14 +283,22 @@
      } */
 
      .description {
-        width: 484px;
-        height: 75px;
+        font-size: 21px;
+        font-weight: 300;
+        color: white;
      } 
-  
-     #main-head {
+
+     .text-main-tablet {
       font-size: 72px;
+      font-weight: bold;
       text-align: right;
-   }
+      margin-top: 10px;
+      margin-bottom: 0px;
+     }
+
+     .premium {
+      margin: 0 auto;
+     }
 
    .display-pro {
       width: 200px; /* Adjust as needed */
