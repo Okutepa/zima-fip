@@ -7,6 +7,9 @@
 body {
     background-image: linear-gradient(#17351C, #6B8F71, #6A8D70, #2E4131);
     background-repeat: no-repeat;
+    font-family: 'lato', Ariel, sans-serif;
+    background-repeat: no-repeat;
+
 }
 
 main {

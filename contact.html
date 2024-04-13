@@ -1,137 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/grid.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <title>Zima</title>
-</head>
-
-<body>
-  <header id="main-header" class="grid-con">
-    <div class="logo col-start-1 col-end-2 m-col-start-1 m-col-end-3 l-col-start-1 l-col-end-3">
-      <a href="index.html"><img src="images/logo.svg" alt="zima logo"></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Zima</title>
+  </head>
+  
+  <body>
+    <header id="main-header" class="grid-con">
+      <div class="logo col-start-1 col-end-2 m-col-start-1 m-col-end-3 l-col-start-1 l-col-end-3">
+        <a href="index.html"><img src="images/logo.svg" alt="zima logo"></a>
+      </div>
+      <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-13 l-col-start-5 l-col-end-13">
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger">
+          <img src="images/burger.svg" alt="hamburger menu">
+        </label>
+        <div id="burger-con">
+          <ul>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="">Blogs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  
+    
+    <main>
+      <h1 class="contact-h1 col-span-full">
+        LETS HEAR FROM YOU!
+      </h1>
+      <section class="grid-con">
+  
+        <div class="contact col-span-full m-col-start-1 m-col-end-5 l-col-start-1 l-col-end-4">
+          <div class="icon-con">
+            <div class="icon">
+              <img src="images/maps-pin-icon.svg" alt="">
+            </div>
+  
+            <div class="icon-text">
+              <h3 class="">Address</h3>
+              <p>931 Georgetown Dr,<br> London, ON <br>N6H 5J9</p>
+            </div>
+          </div>
+  
+          <div class="icon-con">
+            <div class="icon">
+              <img src="images/phone-icon.svg" alt="">
+            </div>
+  
+            <div class="icon-text">
+              <h3 class="">Phone</h3>
+              <p>931 Georgetown Dr,<br> London, ON <br>N6H 5J9</p>
+            </div>
+          </div>
+  
+          <div class="icon-con">
+            <div class="icon">
+              <img src="images/maps-pin-icon.svg" alt="">
+            </div>
+  
+            <div class="icon-text">
+              <h3 class="">Email</h3>
+              <p>Info@zima.ca</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-span-full m-col-start-7 m-col-end-13 l-col-start-7 l-col-end-13 contact-form">
+          <form action="">
+            <div class="input-box">
+              <input type="text" name="" required="required">
+              <span>Full Name</span>
+            </div>
+    
+            <div class="input-box">
+              <input type="text" name="" required="required">
+              <span>Email</span>
+            </div>
+    
+            <div class="input-box">
+              <input type="text" name="" required="required">
+              <span>Subject</span>
+            </div>
+    
+            <div class="input-box">
+              <textarea required="required"></textarea>
+              <span>Type your message here...</span>
+            </div>
+          </form>
+        </div>
+      </section>
+  
+    </main>
+    <footer class="footer">
+      <div class="row grid-con">
+        <div class="footer-col col-span-full l-col-start-1 l-col-span-2 m-col-start-1 m-col-span-2">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-col col-span-full l-col-start-3 l-col-span-2 m-col-start-4 m-col-span-4">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="#">Terms & conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Faq</a></li>
+            <li><a href="#">UGC</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-col col-span-full l-col-start-11 l-col-span-4 m-col-start-9">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+         </div>
     </div>
-    <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-13 l-col-start-5 l-col-end-13">
-      <input type="checkbox" id="hamburger">
-      <label for="hamburger">
-        <img src="images/burger.svg" alt="hamburger menu">
-      </label>
-      <div id="burger-con">
-        <ul>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="">Blogs</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-  
-  <main>
-    <h1 class="contact-h1 col-span-full">
-      LETS HEAR FROM YOU!
-    </h1>
-    <section class="grid-con">
-
-      <div class="contact col-span-full m-col-start-1 m-col-end-5 l-col-start-1 l-col-end-4">
-        <div class="icon-con">
-          <div class="icon">
-            <img src="images/maps-pin-icon.svg" alt="">
-          </div>
-
-          <div class="icon-text">
-            <h3 class="">Address</h3>
-            <p>931 Georgetown Dr,<br> London, ON <br>N6H 5J9</p>
-          </div>
-        </div>
-
-        <div class="icon-con">
-          <div class="icon">
-            <img src="images/phone-icon.svg" alt="">
-          </div>
-
-          <div class="icon-text">
-            <h3 class="">Phone</h3>
-            <p>931 Georgetown Dr,<br> London, ON <br>N6H 5J9</p>
-          </div>
-        </div>
-
-        <div class="icon-con">
-          <div class="icon">
-            <img src="images/maps-pin-icon.svg" alt="">
-          </div>
-
-          <div class="icon-text">
-            <h3 class="">Email</h3>
-            <p>Info@zima.ca</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-span-full m-col-start-7 m-col-end-13 l-col-start-7 l-col-end-13 contact-form">
-        <form action="">
-          <div class="input-box">
-            <input type="text" name="" required="required">
-            <span>Full Name</span>
-          </div>
-  
-          <div class="input-box">
-            <input type="text" name="" required="required">
-            <span>Email</span>
-          </div>
-  
-          <div class="input-box">
-            <input type="text" name="" required="required">
-            <span>Subject</span>
-          </div>
-  
-          <div class="input-box">
-            <textarea required="required"></textarea>
-            <span>Type your message here...</span>
-          </div>
-        </form>
-      </div>
-    </section>
-
-  </main>
-  <footer class="footer">
-    <div class="row grid-con">
-      <div class="footer-col col-span-full l-col-start-1 l-col-span-2 m-col-start-1 m-col-span-2">
-        <h4>Company</h4>
-        <ul>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Blogs</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col col-span-full l-col-start-3 l-col-span-2 m-col-start-4 m-col-span-4">
-        <h4>Get Help</h4>
-        <ul>
-          <li><a href="#">Terms & conditions</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Faq</a></li>
-          <li><a href="#">UGC</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col col-span-full l-col-start-11 l-col-span-4 m-col-start-9">
-        <h4>Follow Us</h4>
-        <div class="social-links">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      </div>
-       </div>
-  </div>
-</footer>
-</body>
-<script src="js/main.js"></script>
-</html>
+  </footer>
+  </body>
+  <script src="js/main.js"></script>
+  </html>
