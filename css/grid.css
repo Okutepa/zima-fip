@@ -134,10 +134,12 @@
    height: 35px;
    width: 145px;
    margin-left: 10px;
+   margin-top: -30px;
+   margin-bottom: 20px;
  }
 
  .line-separator {
-   
+   margin-top: 10px;
  }
 
  .description {
@@ -150,8 +152,8 @@
  }
 
  .premium {
-   margin-top: 20px;
-   margin-bottom: px;
+   margin-top: 10px;
+   margin-bottom: 0px;
  }
 
  .display-pro {
@@ -167,11 +169,11 @@
 
 
 .section-img img {
-   margin-top: 150px;
+   margin-top: 10px;
 }
 
 #first {
-   margin-top: -100px;
+   margin-top: -160px;
    margin-left: 200px;
 }
 
@@ -447,19 +449,20 @@
 
 
     .text-main-tablet {
-      height: 100px;
+      
       margin-top: 72px;
-     display: block;
-     font-size: 32px;
-     color: white;
-     text-align: right;
+      display: block;
+      font-size: 72px;
+      color: white;
+      text-align: right;
    }
    
    .description {
       height: 100px;
-      margin-top: -70px;
+      margin-top: 50px;
       font-size: 16px;
    }
+
 
 
     .line-separator {
@@ -471,7 +474,7 @@
    }
 
     .button-ex {
-      margin-top: px;
+      margin-top: 10px;
       margin-left: 10px;
   }   
  
@@ -480,15 +483,9 @@
      text-align: right;
   }
 
-  .body-sec {
-   height: 650px;
-   margin-top: 50px;
-  }
-
   .premium {
    font-size: 32px;
-   margin-top: 50px;
-   margin-bottom: 0px;
+   margin-top: 200px;
  
   }
 
